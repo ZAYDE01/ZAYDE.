@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ZAYDE — sitemap.xml
+  Sube este archivo a la raíz de tu dominio (ej. https://zayde.vercel.app/sitemap.xml).
+
+  Ahora el sitio SÍ tiene URLs reales por página y por producto (ver
+  vercel.json), así que aquí se listan el inicio, el catálogo y cada
+  categoría. Las fichas de producto individuales (/producto/123-...) NO
+  se listan porque se generan del lado del cliente con datos que pueden
+  cambiar; si más adelante quieres que Google indexe cada producto por
+  separado, lo ideal es generar este sitemap automáticamente desde tu
+  inventario real (puedo ayudarte a armar ese script cuando lo necesites).
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://zayde.vercel.app/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo</loc><changefreq>daily</changefreq><priority>0.9</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/ropa</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/perfumes</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/bolsos</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/lentes</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/relojes</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/sneakers</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://zayde.vercel.app/catalogo/joyeria</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+</urlset>

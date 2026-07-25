@@ -1,0 +1,7 @@
+# ZAYDE — robots.txt
+# Sube este archivo a la raíz de tu dominio (ej. https://zayde.vercel.app/robots.txt)
+
+User-agent: *
+Allow: /
+
+Sitemap: https://zayde.vercel.app/sitemap.xml
