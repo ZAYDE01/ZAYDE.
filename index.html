@@ -6581,7 +6581,7 @@ async function zyCheckPass(){
     showToast('No se pudo conectar con el servicio de acceso (revisa tu conexión o bloqueador de anuncios) y recarga la página.');
     return;
   }
-  if(ZY_ADMIN_EMAIL.indexOf('') !== -1){
+  if(ZY_ADMIN_EMAIL.indexOf('TU_CORREO_ADMIN') !== -1){
     showToast('Falta configurar ZY_ADMIN_EMAIL en el código con el correo admin real de Firebase Auth.');
     return;
   }
