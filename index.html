@@ -6571,7 +6571,7 @@ function zyCloseAdmin(){ document.getElementById('zyAdminModal').classList.remov
    5) Sube firestore.rules a tu proyecto (Firestore > Reglas, o con
       `firebase deploy --only firestore:rules` si usas Firebase CLI).
    ============================================================ */
-const ZY_ADMIN_EMAIL = "TU_CORREO_ADMIN@zayde.com"; // <- reemplaza por el correo real del usuario admin creado en Firebase Auth
+const ZY_ADMIN_EMAIL = "zayde.com.mx@gmail.com"; // <- reemplaza por el correo real del usuario admin creado en Firebase Auth
 
 async function zyCheckPass(){
   const val = document.getElementById('zyPassInput').value;
@@ -6581,7 +6581,7 @@ async function zyCheckPass(){
     showToast('No se pudo conectar con el servicio de acceso (revisa tu conexión o bloqueador de anuncios) y recarga la página.');
     return;
   }
-  if(ZY_ADMIN_EMAIL.indexOf('TU_CORREO_ADMIN') !== -1){
+  if(ZY_ADMIN_EMAIL.indexOf('') !== -1){
     showToast('Falta configurar ZY_ADMIN_EMAIL en el código con el correo admin real de Firebase Auth.');
     return;
   }
