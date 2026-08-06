@@ -1,22 +1,4 @@
 {
-  "crons": [
-    {
-      "path": "/api/send-abandoned-cart-emails?secret=TU_CRON_SECRET",
-      "schedule": "0 * * * *"
-    }
-  ]
-}
-
-// Notas:
-// - "0 * * * *" = una vez por hora, al minuto 0. Los Cron Jobs de Vercel en
-//   el plan Hobby están limitados a 1 vez al día por cron — si estás en Hobby,
-//   cambia a algo como "0 14 * * *" (2pm todos los días) en su lugar.
-// - Reemplaza TU_CRON_SECRET por el mismo valor que pongas en la variable
-//   de entorno CRON_SECRET en Vercel (Project Settings → Environment Variables).
-// - Si ya tienes un vercel.json en la raíz del repo, solo agrega la entrada
-//   "send-abandoned-cart-emails" dentro del arreglo "crons" que ya exista,
-//   no reemplaces el archivo completo.
-{
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/api/sitemap" },
     { "source": "/(.*)", "destination": "/index.html" }
