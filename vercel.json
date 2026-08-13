@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "crons": [
+    { "path": "/api/send-abandoned-cart-emails?secret=TU_CRON_SECRET", "schedule": "0 * * * *" }
+  ]
+}
