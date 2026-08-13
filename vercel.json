@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "crons": [
-    { "path": "/api/send-abandoned-cart-emails?secret=brge984rg3856t74g7349te9h548h85y8yh", "schedule": "0 * * * *" }
-  ]
-}
