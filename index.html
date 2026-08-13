@@ -3789,8 +3789,8 @@ if(typeof firebase !== 'undefined' && firebaseReady){
      CLOUDINARY_API_KEY y CLOUDINARY_API_SECRET (las dos últimas son
      privadas, solo las usa /api/admin-upload-image.js).
    ============================================================ */
-const ZY_CLOUDINARY_CLOUD_NAME = "zayde_reviews_unsigned"; // <- tu "Cloud name" de Cloudinary
-const ZY_CLOUDINARY_UPLOAD_PRESET_REVIEWS = "TU_UPLOAD_PRESET_UNSIGNED"; // <- preset "Unsigned" creado solo para fotos de reseña
+const ZY_CLOUDINARY_CLOUD_NAME = "jaxxxdbq"; // <- tu "Cloud name" de Cloudinary
+const ZY_CLOUDINARY_UPLOAD_PRESET_REVIEWS = "zayde_reviews_unsigned"; // <- preset "Unsigned" creado solo para fotos de reseña
 
 /* Redimensiona y comprime una imagen en el navegador antes de guardarla como
    data URL. Se usa para portadas de categoría (varias viven juntas en un
@@ -3847,7 +3847,7 @@ async function zyUploadImageFile(file, folder){
     // cuenta). El límite de tamaño real lo debes fijar en el preset de
     // Cloudinary; aquí solo hay un tope de sanidad en el navegador. ----
     if(file.size > 8 * 1024 * 1024) throw new Error('La imagen pesa más de 8MB — comprímela e intenta de nuevo.');
-    if(ZY_CLOUDINARY_CLOUD_NAME.indexOf('TU_CLOUD_NAME') !== -1 || ZY_CLOUDINARY_UPLOAD_PRESET_REVIEWS.indexOf('TU_UPLOAD_PRESET') !== -1){
+    if(ZY_CLOUDINARY_CLOUD_NAME.indexOf('jaxxxdbq') !== -1 || ZY_CLOUDINARY_UPLOAD_PRESET_REVIEWS.indexOf('zayde_reviews_unsigned') !== -1){
       throw new Error('Falta configurar Cloudinary en el código (ZY_CLOUDINARY_CLOUD_NAME / ZY_CLOUDINARY_UPLOAD_PRESET_REVIEWS).');
     }
     const fd = new FormData();
