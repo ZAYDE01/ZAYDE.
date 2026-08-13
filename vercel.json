@@ -4,6 +4,6 @@
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "crons": [
-    { "path": "/api/send-abandoned-cart-emails?secret=TU_CRON_SECRET", "schedule": "0 15 * * *" }
+    { "path": "/api/send-abandoned-cart-emails?secret=brge984rg3856t74g7349te9h548h85y8yh", "schedule": "0 15 * * *" }
   ]
 }
