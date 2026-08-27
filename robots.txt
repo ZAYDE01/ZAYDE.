@@ -1,7 +1,0 @@
-# ZAYDE — robots.txt
-# Sube este archivo a la raíz de tu dominio: https://zayde-kappa.vercel.app/robots.txt
-
-User-agent: *
-Allow: /
-
-Sitemap: https://zayde-kappa.vercel.app/sitemap.xml
