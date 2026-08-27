@@ -1,0 +1,47 @@
+# ZAYDE
+
+> ZAYDE es una tienda en línea mexicana de piezas verificadas y auténticas:
+> sneakers, ropa, perfumes, bolsos, lentes, relojes y joyería. Cada pieza pasa
+> por un proceso de verificación de autenticidad de cuatro etapas antes de
+> enviarse. Envíos a todo México con rastreo asegurado.
+
+ZAYDE vende piezas nuevas (no de segunda mano) de marcas reconocidas.
+El pedido se confirma por WhatsApp y también se puede pagar con tarjeta
+mediante Stripe cuando el checkout está disponible. Devoluciones dentro
+de 14 días naturales sin necesidad de justificar el motivo. Si una pieza
+verificada resultara no auténtica, ZAYDE ofrece reembolso completo sin
+excepción.
+
+## Catálogo
+
+- [Catálogo completo](https://zayde-kappa.vercel.app/catalogo): todas las categorías.
+- [Ropa](https://zayde-kappa.vercel.app/catalogo/ropa)
+- [Sneakers](https://zayde-kappa.vercel.app/catalogo/sneakers)
+- [Perfumes](https://zayde-kappa.vercel.app/catalogo/perfumes)
+- [Bolsos](https://zayde-kappa.vercel.app/catalogo/bolsos)
+- [Lentes](https://zayde-kappa.vercel.app/catalogo/lentes)
+- [Relojes](https://zayde-kappa.vercel.app/catalogo/relojes)
+- [Joyería](https://zayde-kappa.vercel.app/catalogo/joyeria)
+
+## Información para clientes
+
+- Envíos: a todo México por Estafeta, FedEx o DHL Express, a domicilio o a
+  sucursal. El tiempo estimado se muestra en el checkout según el código postal.
+- Pagos: coordinación y confirmación por WhatsApp; pago con tarjeta vía
+  Stripe cuando está disponible en el sitio.
+- Devoluciones: 14 días naturales desde la entrega, sin necesidad de
+  justificar el motivo, con la pieza sin uso y su empaque/etiquetas originales.
+  Reembolso en 5 a 10 días hábiles al método de pago original.
+- Verificación de autenticidad: recepción, inspección física de
+  materiales/costuras/herrajes/números de serie, comparación contra
+  referencias oficiales de fábrica y sello de autenticidad ZAYDE.
+- Tallas: guía de tallas disponible en cada ficha de producto (medidas para
+  Ropa, equivalencias MX/US/UK/EU para Sneakers).
+- Contacto: zayde.com.mx@gmail.com, o por WhatsApp desde el sitio.
+
+## Notas
+
+- Los precios y el stock cambian constantemente; para datos exactos de un
+  producto, consulta su ficha en el sitio en vez de asumir valores de aquí.
+- El sitio es una aplicación de una sola página (SPA): el contenido de cada
+  ficha de producto se carga dinámicamente, no está en el HTML estático.
