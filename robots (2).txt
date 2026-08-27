@@ -1,0 +1,16 @@
+# ZAYDE — robots.txt
+# Sube este archivo a la raíz de tu dominio: https://zayde-kappa.vercel.app/robots.txt
+
+User-agent: *
+Allow: /
+
+# [SEO — Punto 19] Hoy el sitio NO genera subcarpetas /page/N ni parámetros
+# ?page= (es un sitio de una sola página que carga todo por JavaScript), así
+# que estas reglas no bloquean nada real todavía. Se dejan aquí de forma
+# preventiva: si en el futuro el admin agrega paginación de catálogo con URL
+# propia, Google no debe indexar cada página suelta como si fuera contenido
+# nuevo (contenido duplicado / thin content).
+Disallow: /*/page/
+Disallow: /*?page=*
+
+Sitemap: https://zayde-kappa.vercel.app/sitemap.xml
