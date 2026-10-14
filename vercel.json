@@ -1,6 +1,7 @@
 {
   "rewrites": [
     { "source": "/sitemap.xml", "destination": "/api/sitemap" },
+    { "source": "/vendedor", "destination": "/vendedor.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "crons": [
