@@ -5,7 +5,7 @@ const { onDocumentWritten } = require('firebase-functions/v2/firestore');
 const admin = require('firebase-admin');
 admin.initializeApp();
 const db = admin.firestore();
-const PORTAL = 'https://TU-DOMINIO.com/vendedor.html';   // <-- cambia por tu URL real
+const PORTAL = 'https://zayde-kappa.vercel.app/vendedor.html';   // <-- cambia por tu URL real
 const LOW_MAX = 2;
 const money = n => '$' + (Number(n) || 0).toLocaleString('es-MX', { minimumFractionDigits: 2 });
 const norm = v => String(v || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
